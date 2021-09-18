@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Effect from './Hookreacteffect/Effect1';
+import State01 from './Hookreactstate/State1';
+import State02 from './Hookreactstate/State2';
+import State03 from './Hookreactstate/State3';
+import Context from './Hookreactcontext/Context1';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <State01 />
+    <Effect />
+    <State02 />
+    <State03 />
+     <Context />
   </React.StrictMode>,
   document.getElementById('root')
 );
