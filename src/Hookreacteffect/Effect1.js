@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import "./Effect1.css";
 export default function Effect() {
   const [count, setCount] = useState(0);
 
@@ -11,7 +11,7 @@ export default function Effect() {
 
   return (
     <div>
-      <button onClick={() => setCount(count + 1)}>
+      <button className="button" onClick={() => setCount(count + 1)}>
         Login
       </button>
     </div>
