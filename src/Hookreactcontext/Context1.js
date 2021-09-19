@@ -37,7 +37,7 @@ export default function Context() {
             )
           }
         >
-          change
+          Change
         </button>
       </div>
     </ThemeContext.Provider>
