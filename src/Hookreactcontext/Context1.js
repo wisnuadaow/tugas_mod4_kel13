@@ -1,5 +1,5 @@
 import { useContext, createContext, useState } from "react";
-
+import "./Context1.css";
 const themes = {
   light: {
     text: "rgb(97, 218, 251)",
@@ -19,10 +19,19 @@ export default function Context() {
   return (
     <ThemeContext.Provider value={valueTheme}>
       <div
+                style={{
+                  background: valueTheme.background,
+                  width: "100%",
+                  maxWidth: "100%",
+                  overflowX: "hidden",
+                  position: "relative",
+                  overflowY: "hidden",
+                  height: "auto",
+                  maxHeight: "100%",
+                }}
         // tinggal uncoment
         // cara 1
-        className="contentWrapper"
-        style={{ backgroundColor: valueTheme.background }}
+        
         // cara 2
         // className={`contentWrapper ${
         //   valueTheme === themes.light ? "dark" : "light"
@@ -37,7 +46,7 @@ export default function Context() {
             )
           }
         >
-          Change
+          change
         </button>
       </div>
     </ThemeContext.Provider>
