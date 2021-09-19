@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import "./State1.css";
 
 export default function State01() {
     const [user, setUser] = useState("");
@@ -11,12 +11,12 @@ export default function State01() {
     return(
         <div className="container">
             <div className="titleWrapper">
-            <p className="title">input with useState</p>
+            <p className="title1">TUGAS MODUL 4 KELOMPOK 13</p>
             </div>
             <div className="inputWrapper">
                 <div>
                     <input
-                    placeholder="name"
+                    placeholder="Nama"
                     size="50"
                     value={user}
                     onChange={(event) => setUser(event.target.value)}
@@ -33,7 +33,7 @@ export default function State01() {
                 <div>
                     <div>
                         <input
-                        placeholder="password"
+                        placeholder="Password"
                         size="50"
                         value={password}
                         onChange={(event) => setPassword(event.target.value)}

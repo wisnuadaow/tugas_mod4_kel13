@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(40, 44, 52);
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .titleWrapper {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .input {
+    border: none;
+    background-color: rgb(40, 44, 52);
+    border-bottom: 2px solid rgb(97, 218, 251);
+    padding: 10px 20px 10px 5px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 16px;
+  }
+
+  .title1 {
+    color: rgb(199, 105, 29);
+    font-weight: bold;
+    font-size: 30px;
+  }  
+  .title {
+    color: rgb(146, 195, 241);
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .Button {
+    background-color: rgb(97, 218, 251);
+    color: rgb(40, 44, 52);
+    font-size: 16px;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    min-width: 100px;
+    margin-left: 200px;
+  }

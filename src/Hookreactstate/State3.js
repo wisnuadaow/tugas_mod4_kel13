@@ -12,7 +12,7 @@ export default function State03() {
             {quote2 && (
         <>
           <div className="titleWrapper">
-            <p className="title">No</p>
+            <p className="title">"A good head and a good heart are always a formidable combination."</p>
           </div>
         </>
       )}
